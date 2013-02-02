@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Mystic Rhythms - Contact Us</title>
+					
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+		<link rel="stylesheet" href="css/themes/mr_mobile.css" />
+		<link rel="stylesheet" href="css/main_mobile.css" />		
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>	
+
+	</head> 
+	<body> 
+	
+		<div data-role="page">
+			
+			<div id="header" data-role="header" data-theme="a">
+				<a href="index.html" data-icon="home" data-iconpos="notext" data-mini="true"></a>
+				<img id="logo" src="images/mr_main_logo_m.png" alt="Mystic Rhythms" />
+			</div><!-- /header -->
+			
+			<div data-role="content" data-theme="c">	
+				<div class="contact-thankyou" style="display: none;">
+					Thank you.  Your message has been sent.  We will get back to you as soon as we can.
+				</div>
+				<div class="contact-form">
+					<p class="mandatory">* indicates a Required Field</p>
+					<div data-role="fieldcontain" class="text-field">
+						<label for="firstname" >First Name*:</label>
+						<input type="text" name="firstname" value="" placeholder="*" class="required" id="firstname" />
+					</div>
+					<div data-role="fieldcontain" class="text-field">
+						<label for="surname">Last Name:</label>
+						<input type="text" name="surname" value="" placeholder="" id="surname" />
+					</div>
+					<div data-role="fieldcontain" class="text-field">
+						<label for="email" >Email Address*:</label>
+						<input type="email" name="email" value="" placeholder="*" class="required" id="email"  />
+					</div>
+					<div data-role="fieldcontain" class="text-field">
+						<label for="mobilephone">Mobile Number:</label>
+						<input type="number" name="mobilephone" value="" placeholder="" id="mobilephone" />
+					</div>
+					<div data-role="fieldcontain">
+						<label for="state" >State:*</label>
+							<select name="state" class="required" id="state">
+								<option value="" data-placeholder="true">Please select your state</option>
+								<option value="AK">AK</option>
+								<option value="AL">AL</option>
+								<option value="AR">AR</option>
+								<option value="AZ">AZ</option>
+								<option value="CA">CA</option>
+								<option value="CO">CO</option>
+								<option value="CT">CT</option>
+								<option value="DC">DC</option>
+								<option value="DE">DE</option>
+								<option value="FL">FL</option>
+								<option value="GA">GA</option>
+								<option value="HI">HI</option>
+								<option value="IA">IA</option>
+								<option value="ID">ID</option>
+								<option value="IL">IL</option>
+								<option value="IN">IN</option>
+								<option value="KS">KS</option>
+								<option value="KY">KY</option>
+								<option value="LA">LA</option>
+								<option value="MA">MA</option>
+								<option value="MD">MD</option>
+								<option value="ME">ME</option>
+								<option value="MI">MI</option>
+								<option value="MN">MN</option>
+								<option value="MO">MO</option>
+								<option value="MS">MS</option>
+								<option value="MT">MT</option>
+								<option value="NC">NC</option>
+								<option value="ND">ND</option>
+								<option value="NE">NE</option>
+								<option value="NH">NH</option>
+								<option value="NJ">NJ</option>
+								<option value="NM">NM</option>
+								<option value="NV">NV</option>
+								<option value="NY">NY</option>
+								<option value="OH">OH</option>
+								<option value="OK">OK</option>
+								<option value="OR">OR</option>
+								<option value="PA">PA</option>
+								<option value="PR">PR</option>
+								<option value="RI">RI</option>
+								<option value="SC">SC</option>
+								<option value="SD">SD</option>
+								<option value="TN">TN</option>
+								<option value="TX">TX</option>
+								<option value="UT">UT</option>
+								<option value="VA">VA</option>
+								<option value="VT">VT</option>
+								<option value="WA">WA</option>
+								<option value="WI">WI</option>
+								<option value="WV">WV</option>
+								<option value="WY">WY</option>
+								<option value="OTHER">OTHER</option>							
+							</select>
+					</div>
+					<div data-role="fieldcontain">
+						<label for="message" >Message*:</label>
+						<textarea name="message" id="message" placeholder="*" class="required"></textarea>
+					</div>
+					<div class="send"><a href="javascript:;" data-role="button" data-theme="b" data-iconpos="right" id="send-feedback">send feedback</a></div>
+				</div><!-- //.contact-form -->
+				<script src="js/contact_us.js"></script>
+
+			</div><!-- /content -->
+			
+			<div id="footer" data-role="footer" data-theme="b" data-position="fixed">
+				<div data-role="controlgroup" data-type="horizontal" data-theme="b" data-mini="true" >
+						<a href="about_us.html" data-role="button"  >About Us</a>
+						<a href="scott/project/index.php" data-role="button">Full Site</a>
+				</div>
+			
+				<p class="copyright">&copy; 2013 Mystic Rhythms Music. All rights reserved.</p>
+	
+			</div>
+		</div><!-- /page -->
+			
+	</body>
+</html>
